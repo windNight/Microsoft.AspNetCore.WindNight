@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<Version>1.0.0</Version>
+		<Authors>windnight</Authors>
+		<Company></Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>
+		</Description>
+		<PackageReleaseNotes>
+		</PackageReleaseNotes>
+		<Title>$(AssemblyName)</Title>
+		<PackageIconUrl>//</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/windNight/Microsoft.AspNetCore.WindNight.git</PackageProjectUrl>
+		<PackageLicenseUrl>//</PackageLicenseUrl>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<NoWarn>1701;1702;1705;1591</NoWarn>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
+		<PackageIcon>logo.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="WindNight.AspNetCore.Hosting" Version="1.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\extensions\WindNight.AspNetCore.GRpc.Swagger\WindNight.AspNetCore.GRpc.Swagger.csproj" />
+		<!--<ProjectReference Include="..\WindNight.AspNetCore.Hosting\WindNight.AspNetCore.Hosting.csproj" />-->
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="logo.ico">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="logo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
