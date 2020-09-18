@@ -6,9 +6,9 @@
 			<!--netcoreapp3.0;-->
 			netcoreapp3.1;
 		</TargetFrameworks>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
-		<FileVersion>1.0.0</FileVersion>
-		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1</FileVersion>
+		<Version>1.0.1</Version>
 		<Authors>windnight</Authors>
 		<Company></Company>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -28,7 +28,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore.HideApi" Version="1.0.1" />
-		<PackageReference Include="WindNight.NetCore.Extension" Version="1.0.0" />
+		<PackageReference Include="WindNight.NetCore.Extension" Version="1.0.1.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<!--<ProjectReference Include="..\WindNight.NetCore.Extension\WindNight.NetCore.Extension.csproj" />-->
@@ -37,7 +37,7 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson">
-			<Version>3.1.5</Version>
+			<Version>3.1.8</Version>
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>

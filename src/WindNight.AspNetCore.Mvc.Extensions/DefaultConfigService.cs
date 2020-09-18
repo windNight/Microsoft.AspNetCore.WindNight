@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
-using WindNight.NetCore.Core.Abstractions;
+using WindNight.Core.Abstractions;
 
 namespace Microsoft.AspNetCore.Mvc.WnExtensions
 {

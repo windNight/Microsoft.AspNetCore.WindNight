@@ -2,7 +2,7 @@
 using System.Globalization;
 using Microsoft.Extensions.DependencyInjection.WnExtension;
 using Newtonsoft.Json.Extension;
-using WindNight.NetCore.Core.Abstractions;
+using WindNight.Core.Abstractions;
 using WindNight.NetCore.Extension.Internals;
 
 namespace WindNight.NetCore.Extension

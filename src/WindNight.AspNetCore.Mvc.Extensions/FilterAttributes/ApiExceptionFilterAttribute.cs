@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc.WnExtensions.Internals;
 using Newtonsoft.Json.Extension;
-using WindNight.NetCore.Core;
+using WindNight.Core;
 
 namespace Microsoft.AspNetCore.Mvc.Filters.Extensions
 {

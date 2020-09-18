@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection.WnExtension;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Hosting.WnExtensions;
 using Microsoft.Extensions.Logging;
-using WindNight.NetCore.Core.Abstractions;
+using WindNight.Core.Abstractions;
 
 namespace Microsoft.AspNetCore.Hosting.WnExtensions
 {

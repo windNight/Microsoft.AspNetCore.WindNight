@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.WnExtensions;
 using Microsoft.AspNetCore.Mvc.WnExtensions.Internals;
 using Newtonsoft.Json.Linq;
-using WindNight.NetCore.Core.Abstractions;
-using WindNight.NetCore.Extension;
+using WindNight.Core.Abstractions;
+using WindNight.Extension;
 
 namespace Microsoft.AspNetCore.Mvc.Filters.Extensions
 {

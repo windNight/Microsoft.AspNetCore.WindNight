@@ -1,7 +1,8 @@
 ﻿using System.Attributes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.WnExtensions.Abstractions.Attributes;
-using WindNight.NetCore.Extension;
+using WindNight.Core.Extension;
+using WindNight.Extension;
 
 namespace Microsoft.AspNetCore.Mvc.WnExtensions.Controllers
 {

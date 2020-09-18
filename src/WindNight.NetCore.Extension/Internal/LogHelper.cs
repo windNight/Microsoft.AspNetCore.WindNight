@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection.WnExtension;
 using Newtonsoft.Json.Extension;
-using WindNight.NetCore.Core.Abstractions;
+using WindNight.Core.Abstractions;
 
 namespace WindNight.NetCore.Extension.Internals
 {

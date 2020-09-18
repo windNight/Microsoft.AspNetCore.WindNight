@@ -3,8 +3,8 @@ using Newtonsoft.Json.Extension;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Linq;
-using WindNight.NetCore.Core.Abstractions;
-using IpHelper = WindNight.NetCore.Extension.HttpContextExtension;
+using WindNight.Core.Abstractions;
+using IpHelper = WindNight.Extension.HttpContextExtension;
 
 namespace Microsoft.AspNetCore.Mvc.WnExtensions
 {

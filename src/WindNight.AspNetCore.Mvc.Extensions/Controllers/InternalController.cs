@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.WnExtensions.Internals;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Extensions;
 using Microsoft.Extensions.DependencyInjection.WnExtension;
-using WindNight.NetCore.Extension;
+using WindNight.Extension;
 
 namespace Microsoft.AspNetCore.Mvc.WnExtensions.Controllers
 {

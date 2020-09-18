@@ -7,9 +7,9 @@
 			net45;
 			net461;
 		</TargetFrameworks>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
-		<FileVersion>1.0.0</FileVersion>
-		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1</FileVersion>
+		<Version>1.0.1</Version>
 		<Authors>windnight</Authors>
 		<Company> </Company>
 		<Description>
@@ -29,10 +29,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="WindNight.Core" Version="1.0.0" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+	<!--<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 	  <PackageReference Include="Microsoft.Extensions.Configuration">
 	    <Version>2.2.0</Version>
 	  </PackageReference>
@@ -57,8 +57,9 @@
 	  <PackageReference Include="Microsoft.Extensions.Logging">
 	    <Version>3.1.5</Version>
 	  </PackageReference>
-	</ItemGroup>
-	<ItemGroup> 
+	</ItemGroup>-->
+
+	<ItemGroup>
 		<None Include="logo.ico">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>

@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.WnExtensions.Abstractions.Attributes;
 using Microsoft.AspNetCore.Mvc.WnExtensions.Internals;
-using WindNight.NetCore.Core;
+using WindNight.Core;
 
 namespace Microsoft.AspNetCore.Mvc.Filters.Extensions
 {

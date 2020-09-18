@@ -2,8 +2,8 @@
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection.WnExtension;
 using Newtonsoft.Json.Extension;
-using WindNight.NetCore.Core.Abstractions;
-using IpHelper = WindNight.NetCore.Extension.HttpContextExtension;
+using WindNight.Core.Abstractions;
+using IpHelper = WindNight.Extension.HttpContextExtension;
 
 namespace Microsoft.AspNetCore.WindNight.Hosting.Internals
 {
