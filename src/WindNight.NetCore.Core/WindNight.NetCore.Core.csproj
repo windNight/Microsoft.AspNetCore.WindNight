@@ -7,9 +7,9 @@
 			net45;
 			net461;
 		</TargetFrameworks>
-		<AssemblyVersion>1.0.1</AssemblyVersion>
-		<FileVersion>1.0.1</FileVersion>
-		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.2</AssemblyVersion>
+		<FileVersion>1.0.2</FileVersion>
+		<Version>1.0.2</Version>
 		<Authors>windnight</Authors>
 		<Company> </Company>
 		<Description>
@@ -29,7 +29,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="WindNight.Core" Version="1.0.0" />
+		<PackageReference Include="WindNight.Core" Version="1.0.0.1" />
 	</ItemGroup>
 
 	<!--<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
@@ -69,4 +69,6 @@
 			<PackagePath></PackagePath>
 		</None>
 	</ItemGroup>
+
+
 </Project>

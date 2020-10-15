@@ -2,14 +2,14 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>
-			<!--netstandard2.0;-->
-			<!--netstandard2.1;-->
+			<!--netstandard2.0;
+			netstandard2.1;-->
 			<!--netcoreapp3.0;-->
 			netcoreapp3.1;
 		</TargetFrameworks>
-		<AssemblyVersion>1.0.1</AssemblyVersion>
-		<FileVersion>1.0.1</FileVersion>
-		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.2</AssemblyVersion>
+		<FileVersion>1.0.2</FileVersion>
+		<Version>1.0.2</Version>
 		<Authors>windnight</Authors>
 		<Company></Company>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -28,13 +28,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="WindNight.AspNetCore.Mvc.Extensions" Version="1.0.1" />
+		<!--<PackageReference Include="WindNight.AspNetCore.Mvc.Extensions" Version="1.0.1" />-->
 	</ItemGroup>
 
 	<ItemGroup>
-		<!--<ProjectReference Include="..\WindNight.AspNetCore.Mvc.Extensions\WindNight.AspNetCore.Mvc.Extensions.csproj" />-->
+		<ProjectReference Include="..\WindNight.AspNetCore.Mvc.Extensions\WindNight.AspNetCore.Mvc.Extensions.csproj" />
 	</ItemGroup>
-	<ItemGroup> 
+	<ItemGroup>
 		<None Include="logo.ico">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
@@ -42,6 +42,6 @@
 		<None Include="logo.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
-		</None>		
+		</None>
 	</ItemGroup>
 </Project>
