@@ -8,7 +8,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\src\WindNight.AspNetCore.Hosting\WindNight.AspNetCore.Hosting.csproj" />
+		<PackageReference Include="WindNight.AspNetCore.Hosting" Version="1.0.2.1" />
+		<!--<ProjectReference Include="..\..\src\WindNight.AspNetCore.Hosting\WindNight.AspNetCore.Hosting.csproj" />-->
 	</ItemGroup>
 
 </Project>

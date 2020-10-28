@@ -19,11 +19,12 @@
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
 		<PackageReference Include="Microsoft.Extensions.Options" Version="3.1.9" />
 		<PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.9" />
+		<PackageReference Include="WindNight.AspNetCore.Mvc.Extensions" Version="1.0.2.1" />
 	</ItemGroup>
 
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\src\WindNight.AspNetCore.Mvc.Extensions\WindNight.AspNetCore.Mvc.Extensions.csproj" />
+		<!--<ProjectReference Include="..\..\src\WindNight.AspNetCore.Mvc.Extensions\WindNight.AspNetCore.Mvc.Extensions.csproj" />-->
 	</ItemGroup>
 
 </Project>

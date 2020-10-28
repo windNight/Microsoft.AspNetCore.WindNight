@@ -2,9 +2,9 @@
 
 	<PropertyGroup>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
-		<AssemblyVersion>1.0.2</AssemblyVersion>
-		<FileVersion>1.0.2</FileVersion>
-		<Version>1.0.2</Version>
+		<AssemblyVersion>1.0.2.1</AssemblyVersion>
+		<FileVersion>1.0.2.1</FileVersion>
+		<Version>1.0.2.1</Version>
 		<Authors>windnight</Authors>
 		<Company></Company>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,11 +22,11 @@
 		<PackageIcon>logo.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<!--<PackageReference Include="WindNight.AspNetCore.Hosting" Version="1.0.0" />-->
+		<PackageReference Include="WindNight.AspNetCore.Hosting" Version="1.0.2.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\extensions\WindNight.AspNetCore.GRpc.Swagger\WindNight.AspNetCore.GRpc.Swagger.csproj" />
-		<ProjectReference Include="..\WindNight.AspNetCore.Hosting\WindNight.AspNetCore.Hosting.csproj" />
+		<!--<ProjectReference Include="..\WindNight.AspNetCore.Hosting\WindNight.AspNetCore.Hosting.csproj" />-->
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="logo.ico">
